@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="sv"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>KTH | Laboration 7 | tilda13</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="https://www.kth.se/social/static/images/favicon.ico">
+        <link rel="stylesheet" href="KTH%20_%20Laboration%207%20_%20tilda13-filer/d487198c2430.css" type="text/css">
+        
+
+
+
+        
+            <script src="KTH%20_%20Laboration%207%20_%20tilda13-filer/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+                var LOCALE = "sv";
+                var HAS_ACCEPTED_TERMS = true;
+            </script>
+
+            <script type="text/javascript" src="KTH%20_%20Laboration%207%20_%20tilda13-filer/5f89bfdcce74.js"></script><style type="text/css">.postForm .postFormOptionBar, .postForm .optionBar, .postForm .postButton { display: none; }</style><script async="" src="KTH%20_%20Laboration%207%20_%20tilda13-filer/widget.js" type="text/javascript"></script>
+        
+
+        
+    <link rel="canonical" href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-7-6/">
+
+    <link rel="stylesheet" type="text/css" href="KTH%20_%20Laboration%207%20_%20tilda13-filer/screen-20130916.css"><!--[if IE 7]><link rel='stylesheet'   href='https://www.kth.se/social/static/personal-menu/screen-ie7-20130208.css'><![endif]--></head>
+    <body id="default" class="studentweb  sub_group_context no_subtype use-personal-menu"><div id="kth-pmenu" class="yui3-cssreset">
+	
+<div id="menu-bar-wrapper">
+  
+  <div id="menu-bar">
+    
+      <span id="kth-pmenu-progress-indicator"></span>
+      <span itemscope="" itemtype="http://schema.org/Person"><a class="profilepicture size31" href="https://www.kth.se/social/home/profile/" title="Profil" itemprop="url"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/missing-profile-image.png" alt="" style="padding-top: 0px" itemprop="image" height="31" width="31"></a></span>
+      <ul id="main-menu" class="barsection left">
+        <li><a id="mi-me" class="top-mi" href="https://www.kth.se/social/home/personal-menu/me/">Hariz</a></li>
+        <li><a id="mi-schema" class="top-mi" href="https://www.kth.se/social/home/personal-menu/schema/">Schema</a></li>
+        <li><a id="mi-courses" class="top-mi" href="https://www.kth.se/social/home/personal-menu/courses/">Kurser</a></li>
+        <li><a id="mi-programmes" class="top-mi" href="https://www.kth.se/social/home/personal-menu/programmes/">Program</a></li>
+        <li><a id="mi-groups" class="top-mi" href="https://www.kth.se/social/home/personal-menu/groups/">Grupper</a></li>
+        <li><a id="mi-services" class="top-mi" href="https://www.kth.se/social/home/personal-menu/servicelinks/">Tjänster</a></li>
+      </ul>
+
+      <ul id="alerts" class="barsection right">
+        <li>
+          <a class="icon-mail" href="https://webmail.kth.se/" title="KTH Webmail">
+              <span class="hide-if-only-icon">Webmail</span>
+          </a>
+        </li>
+        <li>
+          <a class="icon-chat" href="https://www.kth.se/social/home/subscriptions/" title="Nyheter från dina kurser, grupper och program">
+              <span class="hide-if-only-icon">Nyhetsflöde</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.kth.se/social/home/personal-menu/notifications/" title="Du har 0 aviseringar" data-section="notifications" class="top-mi dropdown icon-megaphone ">
+              <span class="hide-if-only-icon">Aviseringar</span>
+              
+          </a>
+        </li>
+      </ul>
+
+    
+    
+      <ul id="mini-menu" class="barsection left" style="display:none;">
+         <!-- used for sub 400 screens. -->
+        
+         <li>
+             <a class="no-menu" href="https://www.kth.se/social/home/personal-menu/">Hariz</a>
+         </li>
+         <li>
+          <select onchange="window.location.href=this.value;">
+            <option selected="selected" value="https://www.kth.se/social/home/personal-menu/">Meny</option>
+            <option value="https://www.kth.se/social/home/personal-menu/schema/">Schema</option>
+            <option value="https://www.kth.se/social/home/personal-menu/courses/">Kurser</option>
+            <option value="https://www.kth.se/social/home/personal-menu/programmes/">Program</option>
+            <option value="https://www.kth.se/social/home/personal-menu/groups/">Grupper</option>
+            <option value="https://www.kth.se/social/home/personal-menu/servicelinks/">Tjänster</option>
+            <option value="https://webmail.kth.se">Webmail</option><!-- todo is there a lite version/url? -->
+            <option value="https://www.kth.se/social/home/subscriptions/">Nyhetsflöde</option>
+            <option value="https://www.kth.se/social/home/personal-menu/notifications/">Aviseringar</option>
+          </select>
+         </li>
+        
+      </ul>
+
+  </div>
+</div><!-- end wrapper -->
+<div id="menu-panel" class="hide">
+  <span id="current-indicator"></span>
+  <div class="menu-panel-inner"></div>
+</div>
+<div id="menu-dropdown" class="hide"></div>
+
+<div id="login-help" class="hide">
+  <div id="login-content">
+    <p>
+      
+      Logga in här om du är student eller anställd på KTH
+      
+    </p>
+  </div>
+</div>
+
+
+
+
+
+</div>
+        
+  <div class="content" id="page">
+    
+
+
+<header>
+  <div id="header" class="header"> 
+    <div id="primaryHeader" class="primaryHeader">       
+      <div class="tlc cid-1_77257 block figure defaultTheme mainLogo">      
+        <div class="imageWrapper">   
+          <a href="https://www.kth.se/"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/logo-main-2013.png" alt="KTH:s logotyp" title="KTH:s logotyp" height="70" width="70"></a>    
+        </div> 
+      </div> 
+      
+      <div class="blockItemSeparator blockItemSeparatorIndex0"><span class="blockItemSeparatorInner"></span></div>
+      
+      <div class="tlc cid-1_77262 block search  verbier">   
+            <form class="form search" id="search-dFYbaNoKPMcfFipMeQiMBFFMV-searchForm" method="get" action="https://www.kth.se/search/search">
+                <fieldset class="filterd" id="search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset">  
+                    
+                      
+                        <input class="filterParameter" name="filterlabel" value="Tillämpad datalogi (DD1320)" type="hidden">    
+                        <input class="filterParameter" name="includeurl" value="https://www.kth.se/social/course/DD1320" type="hidden">    
+                        <button title="Sök på alla KTH:s webbplatser" class="button filter visible " id="search-dFYbaNoKPMcfFipMeQiMBFFMV-filterButton" type="button">Kursen
+                        </button>
+                      
+                    
+                    <div class="q_field">
+                        <div class="input">
+                            <input id="search-dFYbaNoKPMcfFipMeQiMBFFMV-q" class="q searchboxautocomplete ui-autocomplete-input" accesskey="s" size="26" maxlength="2048" name="q" placeholder="Sök efter innehåll..." autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" type="text">
+                        </div>
+                    </div>
+                    <button title="Rensa inmatningsfältet" id="search-dFYbaNoKPMcfFipMeQiMBFFMV-clearButton" type="button" class="button clear"></button>
+                </fieldset> 
+                <input name="l" value="sv" type="hidden">      
+                <input value="Sök" class="button search" type="submit">
+            </form>
+            <script type="text/javascript">
+            $(document).ready(function() {
+                if ($("#search-dFYbaNoKPMcfFipMeQiMBFFMV-q").val() != "") {
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-clearButton").addClass("visible");
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset").addClass("hasText");
+                }
+                $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-clearButton").click(function(e){
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-q").val("");
+                    $(this).removeClass("visible");
+                    $('#search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset').removeClass('hasText');
+                    e.preventDefault();
+                    $('#search-dFYbaNoKPMcfFipMeQiMBFFMV-q').focus();
+                    });
+                $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-q").on("keyup", function(e) {
+                    if ($("#search-dFYbaNoKPMcfFipMeQiMBFFMV-q").val() != "") {
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-clearButton").addClass("visible");
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset").addClass("hasText");
+                    } else {
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-clearButton").removeClass("visible");
+                    }
+                });
+                $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-filterButton").click(function(e){
+                    $(".filterParameter").remove();
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset").removeClass("filterd");
+                    $(this).hide();
+                });
+                if($(".filterParameter").length === 0){
+                    $("#search-dFYbaNoKPMcfFipMeQiMBFFMV-searchFieldset").removeClass("filterd");
+                }
+            });
+            </script>   
+            
+      </div>
+    </div>  
+    <div id="secondaryHeader" class="secondaryHeader">    
+      <div class="tlc cid-1_260060 block siteName">  
+        <a href="https://www.kth.se/">Kungliga Tekniska högskolan</a>   
+      </div>
+      
+      
+
+      
+
+
+
+  <div class="block translation">
+    <form action="https://www.kth.se/social/i18n/setlang/" method="post" class="language">
+      
+      <input name="language" value="en" type="hidden">
+      <button type="submit" class="to_en">
+        <span class="lang-name">In English</span>
+        <span class="empty">&nbsp;</span>
+      </button>
+      
+    </form>
+  </div>
+
+
+    </div>
+    
+        <!--can use left menu-->
+        <div class="menu-nav-helper">
+            <a href="#menu-bottom" class="jump-target">Meny</a>
+        </div>
+    
+
+  </div>
+</header>
+
+
+    <div class="bodyWrapper ">
+      <div class="bodyWrapper2">
+        
+ <div class="articleWrapper"><a href="" id="main-resize" class="icon-resize-full">Min/Max</a>
+  
+
+<nav style="margin-right: 75px;">
+  <div id="breadcrums" class="breadcrums">
+    <a href="http://www.kth.se/">KTH</a>
+    
+        
+          <span class="separator">/</span>
+          <a href="https://www.kth.se/social/">Kurswebb</a>
+        
+      <span class="separator">/</span>
+      <a href="https://www.kth.se/social/course/DD1320/">Tillämpad datalogi (DD1320)</a>
+    
+    
+    
+      <span class="separator">/</span>
+      tilda13
+      
+      
+        <span class="separator">/</span>
+        Laboration 7
+      
+    
+  </div>
+</nav>
+
+
+  <article>
+    <div id="article" class="article">
+      
+    <div class="contentarea">
+
+        <div class="mainContent">
+            
+                <div class="preArticleParagraphs">
+                    <div class="topControls">
+                        <div class="top">
+                            
+
+                        </div>
+                    </div>
+                    <h1 class="title">Laboration 7</h1>
+                </div>
+                <div class="paragraphs"><h2>Laboration 7 - Molekylgrafik</h2>
+<p>Det här programmet ska fullborda det som den föregående labben har 
+påbörjat. Det gör formelkoll som tidigare och ritar sedan upp molekylen.
+ På skärmen&nbsp;kan det se ut så här (användarens inmatning i fetstil):</p>
+<pre>   Molekyl: <strong>Si(C3(COOH)2)4(H2O)7</strong>
+   Molekyl:
+</pre>
+<p>och i molekylfönstret ritar programmet ut formelstrukturen: <img style="cursor: pointer;" src="KTH%20_%20Laboration%207%20_%20tilda13-filer/molbild.gif" alt="molekylträd" height="166" width="445"></p>
+<h3>Förberedelse: Rita syntaxträd</h3>
+<p>Plocka fram syntaxen i labb 6, och rita med hjälp av den upp syntaxträd för följande molekyler:</p>
+<pre>O
+CO2
+(CH3)2(CH2)4
+</pre>
+<h3>Låt ditt program bygga ett molekylträd</h3>
+<p>Du ska komplettera formelkollsprogrammet till att samtidigt bygga ett
+ träd som ser ut som ovan. Varje ruta motsvaras av ett objekt:</p>
+<pre>class Ruta:
+    def __init__(self, atom="( )", num=1):
+        self.atom = atom
+        self.num = num
+        self.next = None
+        self.down = None
+</pre>
+<p>Funktionen readgroup skapar först en sådan tomruta med</p>
+<pre>   rutan = Ruta() </pre>
+<p>och anropar <em>readatom</em> och <em>readnum</em> för att kunna sätta in rätt värden på <em>atom</em> och <em>num</em>. Om det är en parentesgrupp ska <em>readgroups</em> anrop till <em>readmol</em> returnera en delmolekyl som sätts under <em>rutan.down</em>.</p>
+<p>När readgroup är klar returnerar den rutan till anropet</p>
+<pre>    mol = readgroup()
+</pre>
+<p>som görs allra först i <em>readmol</em>. Vad som ska göras med <em>mol.next</em> får du själv tänka ut. Slutligen returnerar <em>readmol</em> den färdiga strukturen till <em>readformel</em> som returnerar den till huvudprogrammets anrop</p>
+<pre>    mol = readformel()
+</pre>
+<p>där <em>mol</em> pekar högst upp till vänster på syntaxträdet.</p>
+<h3>Rita molekylträdet</h3>
+<p>Huvudprogrammet ska nu rita upp den färdiga molekylen. Använd molgrafik.py från labb 5. Skapa ett objekt av den klassen:</p>
+<pre>   mg = molgrafik()</pre>
+<p>Sedan ska</p>
+<pre>   mg.show(mol)
+</pre>
+<p>rita upp molekylbilden i ett eget fönster. Bilden ritas förstås 
+rekursivt, och du ska formulera den rekursiva tanke som används. Om du 
+inte kommer på den själv kanske det hjälper att kolla molgrafikkoden. Om
+ programmet avslutas direkt hinner man inte se grafiken blinka förbi. Se
+ därför till att ha en slinga för inmatning av flera formler.</p>
+<h3>Molekylvikten</h3>
+<p><strong>Molekylvikten</strong>&nbsp;ska beräknas rekursivt med anropet <em>weight(mol)</em>.
+ Formulera först en mycket rekursiv tanke för vikten och programmera den
+ sedan! Låt programmet skriva ut vikten av molekylen i terminalfönstret.</p>
+<p><strong>betyg E:</strong> Du ska ha löst uppgifterna ovan, och kunna</p>
+<ul>
+<li>Rita hur trädet byggs upp av funktionsanropen.</li>
+<li>Visa med ett exempel hur funktionen <em>weight()</em> beräknar molekylvikten.</li>
+<li>Förklara hur ditt anrop till molgrafikens <em>show()</em> fungerar (men du behöver inte kunna förklara hur Tkinter fungerar).</li>
+</ul>
+<p><strong>betyg C:&nbsp;</strong>Kraven för E uppfyllda +</p>
+<ul>
+<li>Labben inlämnad via KTH Social senast 20 november kl 20.00 och redovisad på labbtillfället 21 november.</li>
+</ul>
+<p><strong>betyg A:</strong> Kraven för C uppfyllda +</p>
+<ul>
+<li>Modifiera molgrafiken så att vikten skrivs ut i samma fönster.</li>
+</ul>
+<h2></h2>
+<h2>Gratulerar till avklarad labbkurs! Glöm inte att fylla i kursenkäten på <a href="http://www.csc.kth.se/DD1320/tilda13/kursenkat/"> http://www.csc.kth.se/DD1320/tilda13/kursenkat/</a></h2></div>
+            
+
+
+
+        </div><!-- end mainContent (page)-->
+
+
+        
+            <div class="articleFooter"> <!-- must not be in content?! -->
+                
+                
+<div id="content-detail-activity" class="noCommentsYet">
+	<div id="activity">
+		<div class="activityStream">
+			<div class="activityBlock detail_view">
+			    <div class="activities">
+			    
+<div class="activity minor page_new">
+    <p class="meta">
+        <a href="https://www.kth.se/profile/133803/" class="profileLink">Linda Kann</a> 
+         (Lärare)
+        skapade sidan
+        <span class="time" title="6 november 2013 kl. 13:25">6 november kl. 13:25</span>
+    </p>
+</div>
+
+
+<!-- no activity for minor edits -->
+
+
+			    </div>
+			    
+				    <div id="postForm">
+				        
+
+
+    
+        <div class="postForm comment">
+
+            
+                <span class="profilepicture size31" title="Hariz Hasecic (Användaren har ingen publik profil)"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/missing-profile-image.png" alt="" height="31" width="31"></span>
+            
+
+            <form style="position: relative;" action="/social/home/private/page/laboration-7-6/add-comment/" method="post" enctype="multipart/form-data" onsubmit="return !$('#id_force_notify').is(':checked') || confirm('Informerar prenumeranter via epost oavsett deras inställningar för epostnotifering. Bör endast användas i undantagsfall. \nÄr du säker på att du vill göra detta?');">
+                <div class="postFormOuter">
+                    <div class="postFormInner">
+                        <div class="mainTextField">
+                            
+                            <textarea rows="10" name="content" cols="40" placeholder="" id="comment_to_527a351ff276547891b2d526" class="tinymce load_lazy"></textarea>
+                        <div style="position: absolute; top: 1.2em; left: 1.2em;" class="placeholder">Kommentera sidan ...</div></div>
+                    </div>
+                </div>
+                
+                <div class="postFormBottom">
+                    <div class="optionBar">
+                        
+                        
+                            <div class="optionBarField">
+                                <span class="grants_description"><span title="Detta visar vem som får läsa det som skrivs. Kommentarer får samma synlighet. Om du vill skriva något med en annan synlighet gör ett nytt inlägg.">Hela världen får läsa</span></span>
+                            </div>
+                        
+
+                    </div>
+
+                </div>
+                
+                <div style="clear:right;">
+                    
+                        <p class="postButton"><a class="cancel" href="javascript:." onclick="tinymce_control.editor.cancel($(this).closest('form')); return false;">Avbryt</a><input value="Kommentera" type="submit"></p>
+                    
+                </div>
+            </form>
+        </div>
+    
+
+
+				    </div>
+				
+			</div>
+		</div> 
+	</div>
+</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			if (! $("div.activities").children().size()) {
+				$("div.postForm").addClass("callToAction");
+			}
+		});	
+	</script>
+
+
+            </div>
+        
+
+        <div class="metadata articleFooter" style="">
+            <div style="float:left;">
+                <div id="grants">
+                    <p>Hela världen får läsa.</p>
+                </div>
+                <div class="lastChange">
+                <p>Senast ändrad: 2013-11-06 13:26.
+                    
+                        <a class="history" href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-7-6/history/">Visa versioner</a>
+                    
+                </p>
+                </div>
+
+            <!-- Start Tags -->
+
+
+                <div class="metagroup">
+                    <div class="metadata" id="tagChangeForm">
+                        <span class="tags">
+                            Taggar:
+                            
+                                Saknas än så länge.
+                            
+                        </span>
+                        
+                            <div class="seperatebody">
+                                <div class="summary">Lägg till<span class="show indicator">▼</span><span style="display: none;" class="hide indicator">▲</span></div>
+                                <div style="display: none;" class="body">
+                                    
+                                    
+
+
+
+    <form action="/social/home/private/page/laboration-7-6/add-tags/" class="small" method="post">
+        <p>
+        
+            <span class="fieldWrapper">
+                
+                <input autocomplete="off" name="tags-tags" maxlength="255" class="tagField" id="id_tags-tags" type="text">
+            </span>
+        
+
+          <input class="" value="Lägg till" type="submit">
+        </p>
+    </form>
+
+
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+
+        <!-- End Tags -->
+
+
+
+            </div>
+            <div class="" style="clear:both;">
+                <div class="watchStatus">
+                    
+                        
+                            <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-7-6/add-watcher/">Följ denna sida</a>
+                        
+                    
+                </div>
+                <div style="float:left;">
+                
+                    <a class="reportAbuse None" title="Du kan anmäla innehåll som strider mot lagen eller våra användarvillkor." href="https://www.kth.se/social/user/_report_/abuse/?url=https%3A%2F%2Fwww.kth.se%2Fsocial%2Fcourse%2FDD1320%2Fsubgroup%2Ftilda13%2Fpage%2Flaboration-7-6%2F">Anmäl missbruk</a>
+                
+                </div>
+            </div>
+
+
+            
+
+        </div>
+    </div>
+
+    
+
+
+    </div>
+  </article>
+ </div>
+
+      </div>
+    </div>
+
+     
+  
+
+
+<nav>
+ 
+  <div id="standardNavigation" class="standardNavigation">
+  <div class="menu-nav-helper" id="small-menu">
+    <a id="menu-bottom" href="#menu-bar" class="jump-target">Meny</a>
+  </div>
+
+    
+      
+        
+          
+
+
+<h2><a href="https://www.kth.se/social/course/DD1320/">Tillämpad datalogi</a></h2>
+
+<div class="courseData">
+  DD1320 | 6,0 hp
+  <div class="mystatus"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/ffg.png" title="Kursregistrerad" alt="Kursregistrerad" height="21" width="21"></div>
+</div>
+
+
+
+
+
+
+
+  
+
+
+<ul class="pagetree tools">
+ <li>
+ <div class="menuRow">
+      <span class="menuSubSectionName">
+          <span class="icon-cog"></span>Verktyg
+      </span>
+ <span class="marker expand">&nbsp;</span></div>
+ <ul style="display: none;" class="pagetree">
+
+  
+  <li class=""><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/subscription/">Mina inställningar</a></div></li>
+  
+  
+  
+  <li class="">
+    <div class="menuRow">
+      <a href="https://www.kth.se/social/course/DD1320/contenttools/">Skapa, hantera innehåll</a>
+    <span class="marker expand">&nbsp;</span></div>
+    <ul style="display: none;">
+      <li class="">
+        <div class="menuRow">
+          <a class="" href="https://www.kth.se/social/course/DD1320/createpost/#postForm">
+            Nytt inlägg
+          </a>
+        </div>
+      </li>
+     
+      
+
+      <li class="">
+        <div class="menuRow">
+          <a class="" href="https://www.kth.se/social/course/DD1320/createpage/">
+            <span class="icon-plus-circled"></span>Ny wikisida</a>
+        </div>
+      </li>
+      
+      
+    
+        
+        
+      <li class="trashcan"><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/trashcan/">Papperskorg</a></div></li>
+    </ul>
+  </li>
+    
+  
+  
+  
+  <li class="">
+    <div class="menuRow">
+      <a href="https://www.kth.se/social/course/DD1320/discovertools/">Hitta innehåll</a>
+    <span class="marker expand">&nbsp;</span></div>
+    <ul style="display: none;">
+         <li class=""><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/pages/">Sidöversikt</a></div></li>
+         <li class=""><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/posts/">Inläggsarkiv</a></div></li>
+         <li class=""><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/tags/">Visa innehåll utifrån tagg</a></div></li>
+         
+           <li class=""><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/other_subgroups/">Omgångar/grupper</a></div></li>
+         
+         <li class="">
+               <div class="menuRow">
+                <a href="https://www.kth.se/social/course/DD1320/search/">
+                  <span class="icon-search"></span>
+                  Sök i kursen 
+                </a>
+              </div>
+         </li>
+    </ul>
+  </li>
+  
+ </ul>
+ </li> 
+</ul>
+ 
+
+ 
+<ul>
+  
+    <li><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/">Kursöversikt</a></div></li>
+  
+
+  
+    <li><div class="menuRow"><a href="https://www.kth.se/social/course/DD1320/news/">Nyhetsflöde</a></div></li>
+  
+
+  
+    <li><div class="menuRow"><a class="calendar" href="https://www.kth.se/social/course/DD1320/calendar/">Schema</a></div></li>
+  
+
+  
+
+  
+    <li> <ul class="pagetree"><li class="admin_pages no-initial-hide"><div class="menuRow"> <span>Allmänt</span> <span class="marker collapse">&nbsp;</span></div> <ul><li id="content_5063d798f2765459c700000d">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/bokning/">Bokning</a>
+                </div></li><li id="content_503dca14f2765447f6000009">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/digitus-forelasningar-mm/">Digitus (föreläsningar mm)</a>
+                </div></li><li id="content_5079017df2765451cd000017">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/ordlista-2/">Ordlista</a>
+                </div></li><li id="content_5039c6ddf276542d6400001b">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/python-repetition/">Python - repetition</a>
+                </div></li><li id="content_52123946f2765405c1f8c87b">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/tentamen-50/">Tentamen</a>
+                </div></li><li id="content_52722df8f276547c8af42fea">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/rapp-6/">rapp </a>
+                </div></li><li><div class="menuRow withGrayArrowLink"> <a class="standardLink" href="http://www.kth.se/student/kurser/kurs/DD1320/?l=sv">Kursplan m.m.</a> </div></li><li><div class="menuRow withGrayArrowLink"> <a class="standardLink" href="http://www.kth.se/csc/student/hederskodex/">Hederskodex</a> </div></li><li><div class="menuRow"> <span>Inlämningsuppgifter</span> <span class="marker expand">&nbsp;</span></div> <ul style="display: none;"><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=27">Hemtal 3</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=8">Laboration 1</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=13">Laboration 2</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=15">Laboration 3</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=23">Laboration 4</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=30">Laboration 5</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=10">Hemtal 1</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=26">Hemtal 2</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=32">Laboration 6</a>
+                </div></li><li class="assignment">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/proxy/mod/assign/view.php?id=33">Laboration 7</a>
+                </div></li></ul> </li></ul> </li></ul> </li>
+  
+    <li> <ul class="pagetree"><li class="wiki_pages no-initial-hide">
+                    <div class="menuRow hidden-links withRightActionLink"> 
+                        <a style="display: none;" class="right reveal-on-hover " href="https://www.kth.se/social/course/DD1320/createpage/?in_wiki=2870">Ny wikisida</a>
+                        <span class="menuSubSectionName">Kurswiki</span> 
+                    <span class="marker collapse">&nbsp;</span></div> <ul><li id="content_4e808883f27654032400d346">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/page/tilda10-avslutad-kursomgang/">       </a>
+                </div></li></ul> </li></ul> </li>
+  
+    <li> <ul class="pagetree"><li class="subgroup_pages no-initial-hide"><div class="menuRow"> <span>tilda13</span> <span class="marker collapse">&nbsp;</span></div> <ul><li id="content_52123943f2765405c1f8c806">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/bokning-5/">Bokning</a>
+                </div></li><li id="content_52123944f2765405c1f8c820">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/hemtal-8/">Hemtal</a>
+                <span class="marker expand">&nbsp;</span></div> <ul style="display: none;"><li id="content_522f3494f27654256b3e3dde">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/hemtal-1/">Hemtal 1</a>
+                </div></li><li id="content_523c3c38f2765425b505dfd3">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/hemtal-2-2/">Hemtal 2</a>
+                </div></li><li id="content_52455742f2765434abb18b46">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/hemtal-3-2/">Hemtal 3</a>
+                </div></li></ul> </li><li id="content_524a8473f27654169e6435ca">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/kurspm-19/">KursPM</a>
+                </div></li><li id="content_52123944f2765405c1f8c82d">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/kursanalys-47/">Kursanalys</a>
+                </div></li><li id="content_521240f4f276540ebe2263bb">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/kurslitteratur-88/">Kurslitteratur</a>
+                </div></li><li id="content_522c841ef27654229403c5f9">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laborationer-50/">Laborationer</a>
+                <span class="marker collapse">&nbsp;</span></div> <ul><li id="content_52239d85f27654477f55178c">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-1-7/">Laboration 1</a>
+                </div></li><li id="content_522c8739f2765422c76f496f">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-2-7/">Laboration 2</a>
+                <span class="marker expand">&nbsp;</span></div> <ul style="display: none;"><li id="content_52373083f276547ec3727623">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/faq-labb-2/">FAQ - labb 2</a>
+                </div></li></ul> </li><li id="content_522c91a2f276541fef1b340a">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-3-6/">Laboration 3</a>
+                </div></li><li id="content_522c9d74f27654223652a5db">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-4-6/">Laboration 4</a>
+                </div></li><li id="content_523a1207f27654387130daad">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-5-6/">Laboration 5</a>
+                </div></li><li id="content_52654529f276544ca7d00974">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/laboration-6-6/">Laboration 6</a>
+                </div></li><li id="content_527a351ff276547891b2d526" class="current"><div class="menuRow"> <span>Laboration 7</span> </div></li></ul> </li><li id="content_52123945f2765405c1f8c847">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/larare-65/">Lärare (&amp; övningsmaterial)</a>
+                </div></li><li id="content_52123945f2765405c1f8c86e">
+                <div class="menuRow">
+                    <a href="https://www.kth.se/social/course/DD1320/subgroup/tilda13/page/schema-30/">Schema</a>
+                </div></li></ul> </li></ul> </li>
+  
+</ul>
+
+
+
+        
+        
+      
+    
+    
+  </div>
+</nav>
+
+
+
+
+
+    <footer>
+      <div id="footer">
+	               <div class="tlc cid-1_202278 block columnSplitter  using4columns noLabel">
+<div class="columns"> 
+<div class="column column1">
+<div class="columnInner">        <div class="tlc cid-1_202279 block list links defaultTheme"> 
+<h3>KTH</h3>  
+<ul> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/utbildning" class="standardLink">Utbildning</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/forskning" class="standardLink">Forskning</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/samverkan" class="standardLink">Samverkan</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om" class="standardLink">Om KTH</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/student" class="standardLink">Student på KTH</a></li> 
+<li><span class="arrow"></span> <a href="http://intra.kth.se/" class="standardLink">KTH Intranät</a></li> 
+</ul>  </div>
+  
+</div>
+</div> 
+<div class="column column2">
+<div class="columnInner">        <div class="tlc cid-1_202289 block list links defaultTheme"> 
+<h3>Organisation</h3>  
+<ul> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/kthb" class="standardLink">KTH Biblioteket</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om/organisation/skolor" class="standardLink">KTH:s skolor</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om/organisation/centrumbildningar-1.11756" class="standardLink">Centrumbildningar</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om/organisation/rektor-och-prorektor-1.15618" class="standardLink">Rektor</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om/organisation/uf" class="standardLink">Universitetsförvaltningen</a></li> 
+</ul>  </div>
+  
+</div>
+</div> 
+<div class="column column3">
+<div class="columnInner">        <div class="tlc cid-1_202317 block list links defaultTheme"> 
+<h3>Tjänster</h3>  
+<ul> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/student/schema" class="standardLink">Schema</a></li> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/student/kurser" class="standardLink">Kurser och program</a></li> 
+<li><span class="arrow"></span> <a href="https://www.kth.se/social/" class="standardLink">KTH Social</a></li> 
+<li><span class="arrow"></span> <a href="https://webmail.kth.se/" class="standardLink">Webmail</a></li> 
+</ul>  </div>
+  
+</div>
+</div> 
+<div class="column column4">
+<div class="columnInner">           <div class="tlc cid-1_260113 block teaser   leftFloating  noMedia">     
+<div class="teaserText">
+<div class="teaserTextInner">       
+<h2>Kontakt</h2>            
+<div class="paragraphs">       <div class="tlc cid-1_202325 block contactInfo">
+<address class="vcard">
+<span class="org">KTH</span>
+<span class="fn">KTH</span>
+<span class="adr">  
+<span class="postalcode">SE-100 44</span>  
+<span class="locality">Stockholm</span>  
+<span class="country-name">Sweden</span>  
+<span class="tel">+46 8 790 60 00</span>   
+</span>
+</address> </div>    <div class="tlc cid-1_391238 block separator space"><span class="separatorInner"></span></div>
+      <div class="tlc cid-1_391235 block list links defaultTheme">  
+<ul> 
+<li><span class="arrow"></span> <a href="http://www.kth.se/om/kontakt/kontaktformular-1.349416" class="standardLink">Kontakta KTH</a></li> 
+</ul>  </div>
+<table cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td colspan="1" rowspan="1">
+				
+				     <div class="tlc cid-1_391209 block figure ">      
+<div class="imageWrapper">   <a href="http://www.facebook.com/kth"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/facebook-50.png" alt="KTH på Facebook" title="KTH på Facebook" height="66" width="60"></a>    
+</div> 
+ </div> 
+
+			</td>
+			<td colspan="1" rowspan="1">
+				            <span class="tlc cid-1_391216 block link  standardLink"><a href="http://www.facebook.com/kth" class="standardLink">KTH på Facebook</a></span></td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				
+				     <div class="tlc cid-1_391591 block figure ">      
+<div class="imageWrapper">   <a href="http://www.youtube.com/kth"><img src="KTH%20_%20Laboration%207%20_%20tilda13-filer/youtube-50.png" alt="KTH på YouTube" title="KTH på YouTube" height="57" width="60"></a>    
+</div> 
+ </div> 
+
+			</td>
+			<td colspan="1" rowspan="1">
+				            <span class="tlc cid-1_391596 block link  standardLink"><a href="http://www.youtube.com/kth" class="standardLink">KTH på YouTube</a></span></td>
+		</tr>
+	</tbody>
+</table>
+</div> 
+  
+</div>
+</div> </div>
+  
+</div>
+</div> 
+</div> </div> 
+ 
+	    </div>
+    </footer>
+
+  </div>
+
+    
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>
